@@ -14,8 +14,9 @@
 
 @implementation LSIStarWarsAPITests
 
-- (void)testExample {
+- (void)testAPI {
 
+	// Create an API query and verify results
 }
 
 @end

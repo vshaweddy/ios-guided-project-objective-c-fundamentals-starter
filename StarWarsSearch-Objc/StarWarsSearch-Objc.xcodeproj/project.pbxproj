@@ -17,6 +17,8 @@
 		BD9AA5082371D58300E8D4EF /* LSIPersonSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AA5072371D58300E8D4EF /* LSIPersonSearchTableViewController.m */; };
 		BD9AA50B2371D64500E8D4EF /* LSIPersonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AA50A2371D64500E8D4EF /* LSIPersonTableViewCell.m */; };
 		BD9AA50E2371D7D400E8D4EF /* LSIPersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AA50D2371D7D400E8D4EF /* LSIPersonTests.m */; };
+		BD9AA5122371D8E200E8D4EF /* Person.json in Resources */ = {isa = PBXBuildFile; fileRef = BD9AA5112371D8E200E8D4EF /* Person.json */; };
+		BD9AA5142371D90F00E8D4EF /* StarWarsResults.json in Resources */ = {isa = PBXBuildFile; fileRef = BD9AA5132371D90F00E8D4EF /* StarWarsResults.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,10 @@
 		BD9AA5092371D64500E8D4EF /* LSIPersonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSIPersonTableViewCell.h; sourceTree = "<group>"; };
 		BD9AA50A2371D64500E8D4EF /* LSIPersonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSIPersonTableViewCell.m; sourceTree = "<group>"; };
 		BD9AA50D2371D7D400E8D4EF /* LSIPersonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIPersonTests.m; sourceTree = "<group>"; };
+		BD9AA50F2371D87700E8D4EF /* LSILog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSILog.h; sourceTree = "<group>"; };
+		BD9AA5102371D8B000E8D4EF /* LSIFileHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIFileHelper.h; sourceTree = "<group>"; };
+		BD9AA5112371D8E200E8D4EF /* Person.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Person.json; sourceTree = "<group>"; };
+		BD9AA5132371D90F00E8D4EF /* StarWarsResults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StarWarsResults.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,7 @@
 				BD9AA5072371D58300E8D4EF /* LSIPersonSearchTableViewController.m */,
 				BD9AA5092371D64500E8D4EF /* LSIPersonTableViewCell.h */,
 				BD9AA50A2371D64500E8D4EF /* LSIPersonTableViewCell.m */,
+				BD9AA50F2371D87700E8D4EF /* LSILog.h */,
 				BD9AA50C2371D74900E8D4EF /* Person Search TableView */,
 				BD9AA4E92371D53500E8D4EF /* Assets.xcassets */,
 				BD9AA4EB2371D53500E8D4EF /* LaunchScreen.storyboard */,
@@ -110,8 +117,11 @@
 		BD9AA4F82371D53600E8D4EF /* StarWarsSearch-ObjcTests */ = {
 			isa = PBXGroup;
 			children = (
+				BD9AA5102371D8B000E8D4EF /* LSIFileHelper.h */,
 				BD9AA4F92371D53600E8D4EF /* LSIStarWarsAPITests.m */,
 				BD9AA50D2371D7D400E8D4EF /* LSIPersonTests.m */,
+				BD9AA5112371D8E200E8D4EF /* Person.json */,
+				BD9AA5132371D90F00E8D4EF /* StarWarsResults.json */,
 				BD9AA4FB2371D53600E8D4EF /* Info.plist */,
 			);
 			path = "StarWarsSearch-ObjcTests";
@@ -214,6 +224,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9AA5122371D8E200E8D4EF /* Person.json in Resources */,
+				BD9AA5142371D90F00E8D4EF /* StarWarsResults.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

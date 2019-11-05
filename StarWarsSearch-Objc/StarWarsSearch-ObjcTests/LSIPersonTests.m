@@ -15,7 +15,7 @@
 @implementation LSIPersonTests
 
 - (void)testParseJSON {
-
+	
 }
 
 @end
