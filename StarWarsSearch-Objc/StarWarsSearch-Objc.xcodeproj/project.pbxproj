@@ -19,6 +19,7 @@
 		BD9AA50E2371D7D400E8D4EF /* LSIPersonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9AA50D2371D7D400E8D4EF /* LSIPersonTests.m */; };
 		BD9AA5122371D8E200E8D4EF /* Person.json in Resources */ = {isa = PBXBuildFile; fileRef = BD9AA5112371D8E200E8D4EF /* Person.json */; };
 		BD9AA5142371D90F00E8D4EF /* StarWarsResults.json in Resources */ = {isa = PBXBuildFile; fileRef = BD9AA5132371D90F00E8D4EF /* StarWarsResults.json */; };
+		E3213E1323E36C2100FB61D1 /* LSIPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = E3213E1223E36C2100FB61D1 /* LSIPerson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		BD9AA5102371D8B000E8D4EF /* LSIFileHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIFileHelper.h; sourceTree = "<group>"; };
 		BD9AA5112371D8E200E8D4EF /* Person.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Person.json; sourceTree = "<group>"; };
 		BD9AA5132371D90F00E8D4EF /* StarWarsResults.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = StarWarsResults.json; sourceTree = "<group>"; };
+		E3213E1123E36C2100FB61D1 /* LSIPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LSIPerson.h; sourceTree = "<group>"; };
+		E3213E1223E36C2100FB61D1 /* LSIPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LSIPerson.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,8 @@
 				BD9AA5062371D58300E8D4EF /* LSIPersonSearchTableViewController.h */,
 				BD9AA5072371D58300E8D4EF /* LSIPersonSearchTableViewController.m */,
 				BD9AA5092371D64500E8D4EF /* LSIPersonTableViewCell.h */,
+				E3213E1123E36C2100FB61D1 /* LSIPerson.h */,
+				E3213E1223E36C2100FB61D1 /* LSIPerson.m */,
 				BD9AA50A2371D64500E8D4EF /* LSIPersonTableViewCell.m */,
 				BD9AA50F2371D87700E8D4EF /* LSILog.h */,
 				BD9AA50C2371D74900E8D4EF /* Person Search TableView */,
@@ -237,6 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BD9AA4DF2371D53400E8D4EF /* AppDelegate.m in Sources */,
+				E3213E1323E36C2100FB61D1 /* LSIPerson.m in Sources */,
 				BD9AA5082371D58300E8D4EF /* LSIPersonSearchTableViewController.m in Sources */,
 				BD9AA50B2371D64500E8D4EF /* LSIPersonTableViewCell.m in Sources */,
 				BD9AA4F02371D53500E8D4EF /* main.m in Sources */,
