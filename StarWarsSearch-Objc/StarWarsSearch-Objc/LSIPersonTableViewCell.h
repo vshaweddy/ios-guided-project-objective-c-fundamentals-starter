@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
+@class  LSIPerson; // forward declaration
+
 @interface LSIPersonTableViewCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UILabel *nameLabel;
@@ -16,5 +18,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *eyeColorLabel;
 
 // TODO: Create a person property and updateViews method
+@property (nonatomic) LSIPerson *person;
 
 @end
