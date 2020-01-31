@@ -13,9 +13,16 @@
 
 // name, birthyear, height, eye color'
 @property NSString *name;
-@property NSString *birthyear;
+@property NSString *birthYear;
 @property NSString *height;
 @property NSString *eyeColor;
+
+- (instancetype)initWithName:(NSString *)name
+                   birthYear:(NSString *)birthYear
+                      height:(NSString *)height
+                    eyeColor:(NSString *)eyeColor;
+
+- (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 
 @end
 
